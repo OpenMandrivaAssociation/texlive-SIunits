@@ -3,7 +3,7 @@ Version:	1.36
 Release:	1
 Summary:	International System of Units
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive//macros/latex/contrib/SIunits
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/SIunits
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/SIunits.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/SIunits.doc.tar.xz
@@ -29,11 +29,13 @@ now.
     %_texmf_mktexlsr_post
 
 %preun
-    %_texmf_mktexlsr_preun
+    if [ $1 -eq 0 ]; then
+	%_texmf_mktexlsr_pre
+    fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mltexlsr_post
+	%_texmf_mktexlsr_post
     fi
 
 #-----------------------------------------------------------------------
