@@ -6,7 +6,7 @@
 # catalog-version 1.36
 Name:		texlive-SIunits
 Version:	1.36
-Release:	9
+Release:	10
 Summary:	International System of Units
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/SIunits
