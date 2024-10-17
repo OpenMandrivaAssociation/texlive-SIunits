@@ -3,7 +3,7 @@ Version:	59702
 Release:	2
 Summary:	International System of Units
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/SIunits
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/SIunits
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/siunits.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/siunits.doc.r%{version}.tar.xz
